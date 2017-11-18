@@ -63,4 +63,4 @@ distribution({3: 4, 1: 9, 7: 1}, 75); //-> {1: 48, 3: 22, 7: 5}
 
 ## Author
 
-* **Leqi Lu** - https:www.leqilu.com
+* **Leqi Lu** - https://www.leqilu.com
