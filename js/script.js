@@ -67,6 +67,7 @@ function testCases(){
   distribution({1: 0, 2: 0, 3: 4}, 9.6); //-> Please make sure the total portion value is a positive integer.
   distribution("string", 7); //-> Please double check your ratios input.
   distribution({1: 1}, "string"); //-> Please make sure the total portion value is a positive integer.
+  distribution({}, -1); //-> Please make sure the total portion value is a positive integer.
 
   distribution({}, 1); //-> {}
   distribution({1: 1}, 2); //-> {1: 2}
